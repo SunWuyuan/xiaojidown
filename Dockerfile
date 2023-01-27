@@ -1,6 +1,6 @@
 from python:3.9
  
-workdir /draw_quad
+workdir /
  
 copy requirements.txt requirements.txt
 run pip install -r requirements.txt 
