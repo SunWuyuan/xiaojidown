@@ -9,7 +9,6 @@ for i in range(30321):
         url = 'https://web.archive.org/web/'+str(df['timestamp'][i])+'/'+df['original'][i]
         print(url)
         response = urllib.request.urlopen(url).read().decode('utf-8')
-        print(response)
         with open('/data/'+s+".html", "w" ,encoding='utf-8') as file:
             file.write(response)
         print('保存成功')
