@@ -6,7 +6,7 @@ import urllib.request
 #    print(response.read().decode('utf-8'))
 import pandas as pd
 error = []
-df = pd.read_csv("C:/Users/ASUS/Desktop/file.csv")
+df = pd.read_csv("file.csv")
 #response = urllib.request.urlopen('https://wuyuan.dev').read().decode('utf-8')
 #print(response)
 for i in range(30321):
